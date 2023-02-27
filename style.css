@@ -10,8 +10,8 @@
     
 }
 .container{
-    height: 750px;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
    background-color: rgba(187, 189, 191, 0.814);
 }
 .left{
