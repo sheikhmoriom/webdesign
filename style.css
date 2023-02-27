@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    
+}
+.container{
+    height: 750px;
+    width: 100%;
+   background-color: rgba(187, 189, 191, 0.814);
+}
+.left{
+    height: 650px;
+    width: 30%;
+    background-color: rgb(38, 51, 38) ;
+    position: relative;
+}
+.left img{
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    left: 25% ;
+    right: 2%;
+    top: 15%;
+    bottom:10%;
+
+}
+.left h2{
+    color: white;
+   font-size: 80px;
+   overflow: hidden;
+    
+   
+    
+}
