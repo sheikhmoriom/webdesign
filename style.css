@@ -16,7 +16,7 @@
 }
 .left{
     height: 650px;
-    width: 30%;
+    width: 40%;
     background-color: rgb(38, 51, 38) ;
     position: relative;
 }
@@ -24,7 +24,7 @@
     height: 450px;
     width: 300px;
     position: absolute;
-    left: 25% ;
+    left: 30%;
     right: 2%;
     top: 15%;
     bottom:10%;
@@ -33,8 +33,66 @@
 .left h2{
     color: white;
    font-size: 80px;
-   overflow: hidden;
+    margin-left: 25%;
+    margin-top: 80%;
     
+    font-family:Arial Narrow;
+
+}
+.right{
+    height: 650px;
    
+    position: relative;
+}
+.right h1{
+  color: black;
+  position: absolute;
+  top: 0;
+ left: 0;
+ right: 0;
+ margin: auto;
+ 
+   
+}
+.bellow{
+    height: 70px;
+    width: 60%;
+    background-color:rgb(38, 51, 38) ;
+    margin-top: 500px;
+    color: antiquewhite;
+   
+}
+.middle{
     
+    height: 500px;
+    background-color: rgb(38, 51, 38);
+    position: relative;
+
+}
+.middle .me{
+    height: 300px;
+    width: 40%;
+    padding-top: 200px;
+    position: absolute;
+   left: 20%;
+   color: white;
+}
+.me p{
+    padding-top: 50px;
+}
+.box{
+    height: 500px;
+    display: flex;
+    margin-top: 10px;
+}
+.thard{
+  width: 80%;
+  background-color: rgba(187, 189, 191, 0.814);
+  padding-left: 100px;
+  padding-top: 100px;
+  color: rgb(8, 2, 2);
+}
+.right-side{
+    width: 20%;
+    background-color:rgb(38, 51, 38) ;
 }
