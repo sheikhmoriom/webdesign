@@ -18,52 +18,58 @@
     height: 650px;
     width: 40%;
     background-color: rgb(38, 51, 38) ;
-    position: relative;
+   
 }
 .left img{
     height: 450px;
-    width: 300px;
-    position: absolute;
-    left: 30%;
-    right: 2%;
-    top: 15%;
-    bottom:10%;
+    margin-left: 25%;
+    margin-top: 10%;
+
+    
 
 }
 .left h2{
     color: white;
    font-size: 80px;
-    margin-left: 25%;
-    margin-top: 80%;
-    
+    position: absolute;
+    top: 400px;
+    left: 250px;
     font-family:Arial Narrow;
 
 }
 .right{
-    height: 650px;
+    
    
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 60%;
 }
 .right h1{
   color: black;
-  position: absolute;
-  top: 0;
- left: 0;
- right: 0;
- margin: auto;
+    position: relative;
+    margin-top: 230px;
+    margin-left: 30%;
  
    
 }
 .bellow{
-    height: 70px;
-    width: 60%;
-    background-color:rgb(38, 51, 38) ;
-    margin-top: 500px;
-    color: antiquewhite;
+    width: 100%;
+    background-color: #4d5a47;
+    margin-top: 20%;
+    padding: 10px;
+    height: 80px;
    
+
+}
+.bellow p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 .middle{
-    
+    margin-top: 10px;
     height: 500px;
     background-color: rgb(38, 51, 38);
     position: relative;
